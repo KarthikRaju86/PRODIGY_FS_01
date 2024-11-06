@@ -5,7 +5,7 @@ This project implements a user authentication system with secure login and regis
 
 # Technologies used
 
-Backend:
+# Backend:
 
 Python: The backend logic is powered by Python.
 
@@ -17,7 +17,7 @@ Flask-WTF: Secure form handling for login and registration forms.
 
 Flask-Bcrypt: Secure password hashing and verification.
 
-Frontend:
+# Frontend:
 
 HTML: Basic structure of the application.
 
