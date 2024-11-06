@@ -3,6 +3,18 @@
 # Overview
 This project implements a user authentication system with secure login and registration functionality. It is created using Python, HTML & CSS.
 
+# Core Features
+
+User Registration: Users can register with a unique email and a password that is securely hashed and stored.
+
+User Login: Users can log in using their credentials, and the system maintains secure sessions.
+
+Secure Password Storage: Passwords are hashed using a secure algorithm (e.g., bcrypt).
+
+Session Management: Proper session handling to ensure only authenticated users can access the protected homepage.
+
+Responsive UI: The user interface adapts to various screen sizes, ensuring a seamless experience across devices.
+
 # Technologies used
 
 # Backend:
