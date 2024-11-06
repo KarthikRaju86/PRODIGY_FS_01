@@ -1,6 +1,10 @@
 # Secure User Authentication using Python, HTML & CSS
 
 # Overview
+Project Name: Secure User Authentication
+
+Project Type: Web Application
+
 This project implements a user authentication system with secure login and registration functionality. It is created using Python, HTML & CSS.
 
 # Core Features
