@@ -4,11 +4,10 @@ from werkzeug.security import generate_password_hash, check_password_hash
 import bcrypt
 
 app = Flask(__name__)
-app.secret_key = 'supersecretkey'  # Change this in production
+app.secret_key = 'supersecretkey'
 app.config['SESSION_TYPE'] = 'filesystem'
 Session(app)
 
-# Simulating a user database
 users_db = {}
 
 @app.route('/')
@@ -25,7 +24,6 @@ def register():
             flash('Username already exists!')
             return redirect(url_for('register'))
         
-        # Hash the password and store the user
         hashed_password = generate_password_hash(password, method='pbkdf2:sha256', salt_length=16)
         users_db[username] = hashed_password
         flash('Registration successful! Please log in.')
