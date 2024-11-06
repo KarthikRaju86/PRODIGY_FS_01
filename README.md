@@ -5,5 +5,7 @@ This project implements a user authentication system with secure login and regis
 
 # Technologies used
 Python: Handles backend logic, user authentication, and session management.
+
 HTML: Structures the user interface for login, registration, and user interaction.
+
 CSS: Styles the frontend interface to ensure a responsive and user-friendly design.
