@@ -1,2 +1,4 @@
-# PRODIGY_FS_01
-This is a task assigned by ProdigyInfotech as part of my Full Stack Web Development internship.
+# Secure User Authentication using Python, HTML & CSS
+
+# Overview
+This project implements a user authentication system with secure login and registration functionality. It is created using Python, HTML & CSS.
